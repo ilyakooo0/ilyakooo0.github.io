@@ -1,0 +1,50 @@
+$font: Menlo;
+
+body {
+	display: block; 
+	font-family: $font;
+	background-color: #fafafa;
+	margin: auto;
+	max-width: 500px;
+	margin-top: 20px;
+}
+
+
+header {
+	display: block;
+	height: 100px;
+}
+
+#logo {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #5ff5f0;
+	float: left;
+}
+
+#links {
+	display: flex;
+	height: 100%;
+}
+
+#links a {
+	display: block;
+	margin-left: 20px;
+	float: left;
+	align-self: center;
+// 	margin-bottom: auto;
+// 	margin-top: auto;
+	
+}
+
+#links a:hover {
+	color: #bcbcbc; 
+}
+
+@media screen and (max-width: 540px) {
+	body{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
