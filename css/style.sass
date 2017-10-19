@@ -1,0 +1,143 @@
+---
+---
+
+$phoneWidth: 800px
+
+$bodyFontSize: 14pt
+$phoneBodyFontSize: 12pt
+
+$h3FontSize: 17pt
+$phoneH3FontSize: 15pt
+
+$h2FontSize: 31pt
+$phoneH2FontSize: 21pt//$h3FontSize
+
+$h1FontSize: 42pt
+$phoneH1FontSize: $h2FontSize
+
+$contactFontSize: 12pt
+$phoneContactFontSize: 10pt
+
+$backgroundColor: #F9F9F9
+$textColor: #0f0f0f
+$linkStateColor: #666
+$linkColor: $linkStateColor
+$linkHoverColor: $textColor
+$logoDim: 150px
+
+body
+    background-color: $backgroundColor
+    padding: 0
+    margin: 0
+    font-family: 'PT Serif', serif
+    font-size: $bodyFontSize
+    @media screen and (max-width: $phoneWidth)
+        font-size: $phoneBodyFontSize
+        
+
+a
+    color: $linkColor
+    text-decoration: none
+    
+    &:hover 
+        color: $linkHoverColor
+   
+h1, h2, h3
+    font-family: 'PT Mono', monospace
+    font-weight: bold
+
+h2
+    font-size: $h2FontSize
+    @media screen and (max-width: $phoneWidth)
+        font-size: $phoneH2FontSize
+
+h3
+    font-size: $h3FontSize
+    font-weight: bold
+    @media screen and (max-width: $phoneWidth)
+        font-size: $phoneH3FontSize
+   
+.tags, h1
+    font-family: 'PT Mono', monospace
+    font-weight: bold
+    font-size: $h1FontSize
+    @media screen and (max-width: $phoneWidth)
+        font-size: $phoneH1FontSize
+    
+h1
+    margin: 0
+    margin-top: 8px
+p
+    margin: 0
+    margin-top: 13px
+     
+.page-content
+    width: 100vw
+    align: center
+    margin-top: 15vh
+
+.tags
+    width: 90vw
+    text-align: center
+    margin: auto
+    
+.tags, .pages
+    list-style: none
+    padding: 0
+    
+    
+.tagGroup
+    margin-top: 62px
+    
+.pages
+    margin-top: 13px
+    line-height: 100%
+    
+    li
+        padding: 0
+        margin-top: 13px
+    
+.pageTitle
+    @extend h2
+
+#logo
+    margin-top: 13px
+    a
+        display: block
+        margin-left: auto
+        margin-right: auto
+        width: $logoDim
+        height: $logoDim
+        svg
+            display: block
+            margin-left: auto
+            margin-right: auto
+            width: $logoDim
+            height: $logoDim
+            fill: $textColor
+            
+        &:hover
+            svg
+                fill: $linkStateColor
+
+.page
+    width: 85vw
+    max-width: 800px
+    margin-left: auto
+    margin-right: auto
+    
+footer
+    margin-top: 131px
+    width: 100vw
+    text-align: center
+    margin-bottom: 21px
+    .contact
+        width: 90vw
+        margin-left: auto
+        margin-right: auto
+        font-family: 'PT Mono', monospace
+        font-weight: bolder
+        font-size: $contactFontSize
+        @media screen and (max-width: $phoneWidth)
+            font-size: $phoneContactFontSize
+            
