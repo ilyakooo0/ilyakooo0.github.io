@@ -1,13 +1,24 @@
-<!DOCTYPE HTML>
-<head>
-	<link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+---
+layout: default
+title: ilyakooo0
+---
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-	<div id="foo">
-		
-	<h1>Coming Soon...</h1>
-	</div>
-</body>
+<div class="content"> 
+    <ul class="tags">
+        
+    {% for tag in site.pageTags %}
+        <div class="tagGroup">
+            <div class="pageHeader">{{tag}}</div>
+            <ul class="pages">
+        {% for page in site.pages %}
+            {% if page.tag == tag %}
+            <li>    
+                <a class="pageTitle" href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+            {% endif %}
+        {% endfor %}
+            </ul>
+        </div>  
+    {% endfor %}
+    </ul>
+</div>
