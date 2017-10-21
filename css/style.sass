@@ -20,7 +20,7 @@ $phoneContactFontSize: 10pt
 
 $backgroundColor: #F9F9F9
 $textColor: #0f0f0f
-$linkStateColor: #666
+$linkStateColor: #777
 $linkColor: $linkStateColor
 $linkHoverColor: $textColor
 $logoDim: 150px
@@ -42,7 +42,7 @@ a
     &:hover 
         color: $linkHoverColor
    
-h1, h2, h3
+h1, h2, h3, h4
     font-family: 'PT Mono', monospace
     font-weight: bold
 
@@ -56,6 +56,12 @@ h3
     font-weight: bold
     @media screen and (max-width: $phoneWidth)
         font-size: $phoneH3FontSize
+
+h4
+    font-size: $bodyFontSize
+    @media screen and (max-width: $phoneWidth)
+        font-size: $phoneBodyFontSize
+   
    
 .tags, h1
     font-family: 'PT Mono', monospace
@@ -140,8 +146,3 @@ footer
         font-size: $contactFontSize
         @media screen and (max-width: $phoneWidth)
             font-size: $phoneContactFontSize
-            
-span 
-    font-size: $bodyFontSize
-    @media screen and (max-width: $phoneWidth)
-        font-size: $phoneBodyFontSize
