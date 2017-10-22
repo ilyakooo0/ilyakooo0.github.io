@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: foo
+title: ilyakooo0
 # email: your-email@domain.com
 # description: > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
@@ -21,4 +21,4 @@ markdown: kramdown
 sass:
   sass_dir: _sass
 
-pageTags: ["Linal", "Proga"]
+pageTags: ["BZhD", "Linal", "Proga"]
