@@ -134,7 +134,7 @@ x_3 \cdot
 x_4 \cdot 
 
 \begin{pmatrix}
--1 \\ -4 \\ 0 \\ 1 \\ 0
+-4 \\ -1 \\ 0 \\ 1 \\ 0
 \end{pmatrix}
 
 + 
@@ -142,7 +142,7 @@ x_4 \cdot
 x_5 \cdot
 
 \begin{pmatrix}
-6 \\ 21 \\ 0 \\ 0 \\ 1
+21 \\ 6 \\ 0 \\ 0 \\ 1
 \end{pmatrix}
 $$
 
@@ -164,13 +164,13 @@ $$
 ,
 
 \begin{pmatrix}
--1 \\ -4 \\ 0 \\ 1 \\ 0
+-4 \\ -1 \\ 0 \\ 1 \\ 0
 \end{pmatrix}
 
 ,
 
 \begin{pmatrix}
-6 \\ 21 \\ 0 \\ 0 \\ 1
+21 \\ 6 \\ 0 \\ 0 \\ 1
 \end{pmatrix}
 $$
 
