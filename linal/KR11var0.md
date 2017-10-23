@@ -35,7 +35,7 @@ $$
 
 $$
 \begin{pmatrix}
--1 \\ 37 \\ -16
+9 \\ 7 \\ 4
 \end{pmatrix}
 $$
 
