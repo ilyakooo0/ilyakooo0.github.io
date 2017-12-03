@@ -31,7 +31,7 @@ permalink: diskra/DZ2
 
 ¯\\_(ツ)_/¯
 
-## Генератор Машины Тюринга
+## turingSolver
 
 `.txt` файл можно импортировать прямо в эмулятор.
 
@@ -42,7 +42,7 @@ permalink: diskra/DZ2
 
 [Вот бинарка для Linux](/diskra/DZ2_/turingSolverUbuntu.zip)
 
-## Генератор Машины Поста
+## turing2Post
 
 Я совершенно не понимаю тот формат, с которым работает эмулятор машины Поста, поэтому придется ручками вбивать.
 
@@ -54,3 +54,13 @@ permalink: diskra/DZ2
 [Вот бинарка для macOS](/diskra/DZ2_/turing2PostMacOS.zip)
 
 [Вот бинарка для Linux](/diskra/DZ2_/turing2PostUbuntu.zip)
+
+## turingTester
+
+В лоб прогоняет очень много вариантов входных данных для машины поста. Лучше оставить на ночь. (Вариантов _очень_ много)
+
+![](/diskra/DZ2_/turingTesterTerm.png)
+
+[Вот бинарка для macOS](/diskra/DZ2_/turingTesterMacOS.zip)
+
+[Вот бинарка для Linux](/diskra/DZ2_/turingTesterUbuntu.zip)
