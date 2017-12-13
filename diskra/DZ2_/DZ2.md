@@ -44,16 +44,24 @@ permalink: diskra/DZ2
 
 ## turing2Post
 
-Я совершенно не понимаю тот формат, с которым работает эмулятор машины Поста, поэтому придется ручками вбивать.
-
-Буду рад если кто-то захочет мне его расшарить или написать конвертер из моего текстового фала.
-
 ![](/diskra/DZ2_/postTerm.png)
 ![](/diskra/DZ2_/postText.png)
 
 [Вот бинарка для macOS](/diskra/DZ2_/turing2PostMacOS.zip)
 
 [Вот бинарка для Linux](/diskra/DZ2_/turing2PostUbuntu.zip)
+
+## PostHack
+
+Писал не я. Не знаю кто писал на самом деле. Я нашел это в природе.
+
+Короч.
+
+Переводит мой `.txt` файл в `.mpst`, который может скушать эмулятор.
+
+![](/diskra/DZ2_/PostHackTerm.png)
+
+[Вот `exe`шник](/diskra/DZ2_/PostHack.zip)
 
 ## turingTester
 
