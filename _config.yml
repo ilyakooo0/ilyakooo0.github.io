@@ -21,4 +21,6 @@ markdown: kramdown
 sass:
   sass_dir: _sass
 
-pageTags: ["Linal", "BZhD", "Proga", "Awesome stuff"]
+# "Linal"
+# "Diskra"
+pageTags: ["BZhD", "Proga", "Awesome stuff"]
