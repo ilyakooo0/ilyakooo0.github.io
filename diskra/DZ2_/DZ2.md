@@ -42,6 +42,8 @@ permalink: diskra/DZ2
 
 [Вот бинарка для Linux](/diskra/DZ2_/turingSolverUbuntu.zip)
 
+[Вот исходник](https://gist.github.com/ilyakooo0/9ca59a6223f76742c05442319bc3e323)
+
 ## turing2Post
 
 ![](/diskra/DZ2_/postTerm.png)
@@ -50,6 +52,8 @@ permalink: diskra/DZ2
 [Вот бинарка для macOS](/diskra/DZ2_/turing2PostMacOS.zip)
 
 [Вот бинарка для Linux](/diskra/DZ2_/turing2PostUbuntu.zip)
+
+[Вот исходник](https://gist.github.com/ilyakooo0/7f079dc916d1e6f81e560c75b13fb108)
 
 ## PostHack
 
@@ -72,3 +76,5 @@ permalink: diskra/DZ2
 [Вот бинарка для macOS](/diskra/DZ2_/turingTesterMacOS.zip)
 
 [Вот бинарка для Linux](/diskra/DZ2_/turingTesterUbuntu.zip)
+
+[Вот исходник](https://gist.github.com/ilyakooo0/8a8e80cb182457c2d953b441e327eb87)
