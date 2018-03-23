@@ -19,21 +19,21 @@ permalink: diskra/DZ3
 
 Создает папку `diskraDz3` и пишет все туда. Если запускать двойным кликом, то папку создаст в `/`.
 
-![](assets/term.png)
+![](/diskra/DZ3_/term.png)
 
 Рисует все деревья и все таблицы с минимизацией.
 
 `.csv` файлы открываются в `Numbers` и оттуда их можно сразу вставить в `Pages`.
 
-![](assets/files.png)
+![](/diskra/DZ3_/files.png)
 
 Деревья в формате [`GraphViz`](http://www.graphviz.org). Рассчитано все на перевод в `.svg`. В других форматах выглядит не так как надо.
 
 В [`fish`](http://fishshell.com) можно обработать все разом.
 
-![](assets/dot.png)
+![](/diskra/DZ3_/dot.png)
 
-![](assets/tree.png)
+![](/diskra/DZ3_/tree.png)
 
 [Вот бинарка на мак](https://github.com/ilyakooo0/Galmin/releases/download/v1.0/GalminMacOS.zip)
 
