@@ -24,3 +24,5 @@ sass:
 # "Linal"
 # "Diskra"
 pageTags: ["Diskra", "BZhD", "Proga", "Matlab", "Awesome stuff"]
+
+keep_files: ["assets"]
