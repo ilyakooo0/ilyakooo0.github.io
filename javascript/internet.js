@@ -11,6 +11,7 @@ window.onload = function() {
 			let w = $(this).prop("checked")
 			update()
 			$(this).prop("checked", w);
+			$("#telegram").prop("checked", true);
 		})
 	})
 	$("input").each(function() {
