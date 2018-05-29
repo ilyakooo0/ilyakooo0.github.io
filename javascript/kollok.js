@@ -71,7 +71,7 @@ function reevaluate() {
 	let k2 = $("#kollok2").prop("checked")
 	let k3 = $("#kollok3").prop("checked")
 	let k4 = $("#kollok4").prop("checked")
-	let obj = Cookies.get('kollok');
+	let obj = Cookies.getJSON('kollok');
 	if ((obj == undefined) || !(t == obj.t && o == obj.o && k1 == obj.k1 && k2 == obj.k2 && k3 == obj.k3 && k4 == obj.k4)) {
 		obj = {
 			"t": t,
@@ -104,12 +104,11 @@ var opr = []
 var theor = []
 
 window.onload = function() {
-	
+	read()
+
 	$.getJSON("/linal/kollok_/theory.json", function(result) {
 		opr = result["opr"]
 		theor = result["theor"]
-		
-		read()
 		
 		reevaluate()
 		
