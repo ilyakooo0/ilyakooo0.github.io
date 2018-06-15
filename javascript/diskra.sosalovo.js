@@ -16,6 +16,7 @@ function update() {
 	}
 	
 	let d = Math.round(0.62*Math.min(dz3, dz4) + 0.38*Math.max(dz3, dz4))
+	
 	let k = Math.round(0.62*Math.min(kr3, kr4) + 0.38*Math.max(kr3, kr4))
 	let o = 0.62*Math.min(d, k) + 0.38*Math.max(d, k)
 	let r = Math.round(0.8*Math.round(o) + 0.2*mit)
