@@ -15,7 +15,7 @@ function update() {
 		return
 	}
 	
-	let no = Math.round(0.35*kr3 + 0.45*kollok + 0.1*sem + 0.1*kdz)
+	let no = Math.round(0.35*kr3 + 0.4*kollok + 0.12*sem + 0.13*kdz)
 	let r = Math.round(0.7*no + 0.3*egz)
 	
 	result.text(r)
