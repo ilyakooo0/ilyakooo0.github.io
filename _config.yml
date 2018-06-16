@@ -29,6 +29,6 @@ sass:
 
 # "Linal"
 # "Diskra"
-pageTags: ["Linal", "Diskra", "BZhD", "Proga", "Matlab", "Other", "Awesome stuff"]
+pageTags: ["Linal", "Diskra", "Proga", "BZhD", "Matlab", "Other", "Awesome stuff"]
 
 keep_files: ["assets"]
