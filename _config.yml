@@ -15,6 +15,12 @@ title: ilyakooo0
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 
+url: "https://iko.soy"
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+
 # Build settings
 markdown: kramdown
 

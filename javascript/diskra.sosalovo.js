@@ -1,4 +1,6 @@
 function update() {
+	write()
+	
 	let result = $("#diskraSosalovoNumber")
 	let text = $("#diskraSosalovoText")
 	
@@ -38,5 +40,30 @@ window.onload = function() {
 	$("#KR4").keyup(update)
 	$("#DZ4").keyup(update)
 	$("#MIT").keyup(update)
+	
+	read()
+	
 	update()
+}
+
+function read() {	
+	let obj = Cookies.getJSON('diskra.sosalovo')
+	if (obj != undefined) {
+		$("#KR3").val(obj.kr3)
+		$("#DZ3").val(obj.dz3)
+		$("#KR4").val(obj.kr4)
+		$("#DZ4").val(obj.dz4)
+		$("#MIT").val(obj.mit)
+	}
+}
+
+function write() {
+	let obj = {
+		"kr3": parseInt($("#KR3").val()) || 0,
+		"dz3": parseInt($("#DZ3").val()) || 0,
+		"kr4": parseInt($("#KR4").val()) || 0,
+		"dz4": parseInt($("#DZ4").val()) || 0,
+		"mit": parseInt($("#MIT").val()) || 0
+	}
+	Cookies.set('diskra.sosalovo', obj)
 }

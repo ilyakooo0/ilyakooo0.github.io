@@ -1,4 +1,6 @@
 function update() {
+	write()
+	
 	let result = $("#diskraSosalovoNumber")
 	let text = $("#diskraSosalovoText")
 	
@@ -35,5 +37,30 @@ window.onload = function() {
 	$("#Kollok").keyup(update)
 	$("#KR3").keyup(update)
 	$("#Egz").keyup(update)
+	
+	read()
+	
 	update()
+}
+
+function read() {	
+	let obj = Cookies.getJSON('linal.sosalovo')
+	if (obj != undefined) {
+		$("#KDZ").val(obj.kdz)
+		$("#Sem").val(obj.sem)
+		$("#Kollok").val(obj.kollok)
+		$("#KR3").val(obj.kr3)
+		$("#Egz").val(obj.egz)
+	}
+}
+
+function write() {
+	let obj = {
+		"kdz": parseInt($("#KDZ").val()) || 0,
+		"sem": parseInt($("#Sem").val()) || 0,
+		"kollok": parseInt($("#Kollok").val()) || 0,
+		"kr3": parseInt($("#KR3").val()) || 0,
+		"egz": parseInt($("#Egz").val()) || 0
+	}
+	Cookies.set('linal.sosalovo', obj)
 }
