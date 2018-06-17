@@ -62,5 +62,5 @@ function write() {
 		"kr3": parseInt($("#KR3").val()) || 0,
 		"egz": parseInt($("#Egz").val()) || 0
 	}
-	Cookies.set('linal.sosalovo', obj)
+	Cookies.set('linal.sosalovo', obj, { expires: 365 })
 }

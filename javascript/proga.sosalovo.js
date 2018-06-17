@@ -83,5 +83,5 @@ function write() {
 		"ekr": parseInt($("#EKR").val()) || 0,
 		"podbel": parseInt($("#Podbel").val()) || 0
 	}
-	Cookies.set('proga.sosalovo', obj)
+	Cookies.set('proga.sosalovo', obj, { expires: 365 })
 }

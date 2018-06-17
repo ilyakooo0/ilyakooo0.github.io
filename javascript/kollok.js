@@ -83,7 +83,7 @@ function reevaluate() {
 			"store": []
 		}
 	}
-	Cookies.set('kollok', obj);
+	Cookies.set('kollok', obj, { expires: 365 });
 }
 
 function read() {

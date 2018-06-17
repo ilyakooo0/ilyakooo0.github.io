@@ -65,5 +65,5 @@ function write() {
 		"dz4": parseInt($("#DZ4").val()) || 0,
 		"mit": parseInt($("#MIT").val()) || 0
 	}
-	Cookies.set('diskra.sosalovo', obj)
+	Cookies.set('diskra.sosalovo', obj, { expires: 365 })
 }
