@@ -8,7 +8,6 @@ function update() {
 	text.text("")
 	
 	let sr3 = parseFloat($("#SR3").val())
-	let kr3 = parseInt($("#KR3").val())
 	let sr4 = parseFloat($("#SR4").val())
 	let kr4 = parseInt($("#KR4").val())
 	let kdz3 = parseInt($("#KDZ3").val())
@@ -16,7 +15,6 @@ function update() {
 	let podbel = parseInt($("#Podbel").val())
 	
 	if (isNaN(sr3) ||
-		isNaN(kr3) ||
 		isNaN(sr4) ||
 		isNaN(kr4) ||
 		isNaN(kdz3)||
@@ -25,7 +23,7 @@ function update() {
 		return
 	}
 	
-	let no3 = 0.3*sr3 + 0.35*kdz3 + 0.35*kr3
+	let no3 = 0.5*sr3 + 0.5*kdz3
 	let no4 = 0.2*sr4 + 0.8*kr4
 	
 	let no = Math.round(0.2*no3+0.8*no4)
@@ -41,14 +39,12 @@ function update() {
 
 window.onload = function() {
 	$("#SR3").change(update)
-	$("#KR3").change(update)
 	$("#SR4").change(update)
 	$("#KR4").change(update)
 	$("#KDZ3").change(update)
 	$("#EKR").change(update)
 	$("#Podbel").change(update)
 	$("#SR3").keyup(update)
-	$("#KR3").keyup(update)
 	$("#SR4").keyup(update)
 	$("#KR4").keyup(update)
 	$("#KDZ3").keyup(update)
@@ -64,7 +60,6 @@ function read() {
 	let obj = Cookies.getJSON('proga.sosalovo')
 	if (obj != undefined) {
 		$("#SR3").val(obj.sr3)
-		$("#KR3").val(obj.kr3)
 		$("#SR4").val(obj.sr4)
 		$("#KR4").val(obj.kr4)
 		$("#KDZ3").val(obj.kdz3)
@@ -76,7 +71,6 @@ function read() {
 function write() {
 	let obj = {
 		"sr3": parseFloat($("#SR3").val()) || 0,
-		"kr3": parseInt($("#KR3").val()) || 0,
 		"sr4": parseFloat($("#SR4").val()) || 0,
 		"kr4": parseInt($("#KR4").val()) || 0,
 		"kdz3": parseInt($("#KDZ3").val()) || 0,
