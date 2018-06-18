@@ -75,9 +75,9 @@ function read() {
 
 function write() {
 	let obj = {
-		"sr3": parseInt($("#SR3").val()) || 0,
+		"sr3": parseFloat($("#SR3").val()) || 0,
 		"kr3": parseInt($("#KR3").val()) || 0,
-		"sr4": parseInt($("#SR4").val()) || 0,
+		"sr4": parseFloat($("#SR4").val()) || 0,
 		"kr4": parseInt($("#KR4").val()) || 0,
 		"kdz3": parseInt($("#KDZ3").val()) || 0,
 		"ekr": parseInt($("#EKR").val()) || 0,
