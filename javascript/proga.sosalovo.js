@@ -7,9 +7,9 @@ function update() {
 	result.text("")
 	text.text("")
 	
-	let sr3 = parseInt($("#SR3").val())
+	let sr3 = parseFloat($("#SR3").val())
 	let kr3 = parseInt($("#KR3").val())
-	let sr4 = parseInt($("#SR4").val())
+	let sr4 = parseFloat($("#SR4").val())
 	let kr4 = parseInt($("#KR4").val())
 	let kdz3 = parseInt($("#KDZ3").val())
 	let ekr = parseInt($("#EKR").val())
