@@ -35,7 +35,7 @@ html
     background-color: $backgroundColor
 
 body
-    background-color: $backgroundColor
+    // background-color: $backgroundColor
     padding: 0
     margin: 0
     font-family: 'PT Serif', serif
@@ -124,6 +124,7 @@ p
     @extend h2
 
 #logo
+    z-index: 10 
     margin-top: 34px
     a
         display: block
@@ -237,3 +238,15 @@ footer
     margin: auto
     margin-top: 32px
     margin-bottom: 32px
+
+#dotrixBackground
+    z-index: -1
+    display: block
+    position: absolute
+    height: auto
+    width: 100vw
+    top: 0px
+    left: 0px
+.appStoreLink
+    text-align: center
+    margin-top: 47px

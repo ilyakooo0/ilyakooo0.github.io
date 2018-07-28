@@ -4,21 +4,21 @@ title: ilyakooo0
 ---
 
 <div class="content"> 
-    <ul class="tags">
-        
-    {% for tag in site.pageTags %}
-        <div class="tagGroup">
-            <div class="pageHeader">{{tag}}</div>
-            <ul class="pages">
-        {% for page in site.pages %}
-            {% if page.tag == tag %}
-            <li>    
-                <a class="pageTitle" href="{{ page.url }}">{{ page.title }}</a>
-            </li>
-            {% endif %}
-        {% endfor %}
-            </ul>
-        </div>  
-    {% endfor %}
-    </ul>
+	<ul class="tags">
+
+	{% for tag in site.mainPageTags %}
+		<div class="tagGroup">
+			<div class="pageHeader">{{tag}}</div>
+			<ul class="pages">
+		{% for page in site.pages %}
+			{% if page.tag == tag %}
+			<li>    
+				<a class="pageTitle" href="{{ page.url }}">{{ page.title }}</a>
+			</li>
+			{% endif %}
+		{% endfor %}
+			</ul>
+		</div>  
+	{% endfor %}
+	</ul>
 </div>

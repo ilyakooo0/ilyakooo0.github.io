@@ -1,0 +1,25 @@
+---
+layout: default
+title: HSE
+permalink: hse
+---
+
+<div class="content"> 
+    <ul class="tags">
+        
+    {% for tag in site.hsePageTags %}
+        <div class="tagGroup">
+            <div class="pageHeader">{{tag}}</div>
+            <ul class="pages">
+        {% for page in site.pages %}
+            {% if page.tag == tag %}
+            <li>    
+                <a class="pageTitle" href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+            {% endif %}
+        {% endfor %}
+            </ul>
+        </div>  
+    {% endfor %}
+    </ul>
+</div>
