@@ -18,9 +18,9 @@ $phoneH1FontSize: $h2FontSize
 $contactFontSize: 12pt
 $phoneContactFontSize: 10pt
 
-$backgroundColor: #F9F9F9
-$textColor: #0f0f0f
-$linkStateColor: #777
+$backgroundColor: #1E1E1E // #F9F9F9
+$textColor: #cccccc // #0f0f0f
+$linkStateColor: #F9F9F9 // #777
 $linkColor: $linkStateColor
 $linkHoverColor: $textColor
 $logoDim: 150px
@@ -43,14 +43,7 @@ body
     font-size: $bodyFontSize
     @media screen and (max-width: $phoneWidth)
         font-size: $phoneBodyFontSize
-    img
-        display: block
-        margin: auto
-        max-width: 100%
         
-code
-    font-family: 'PT Mono', monospace
-    font-weight: normal
 a
     color: $linkColor
     text-decoration: none
@@ -146,8 +139,8 @@ p
                 fill: $linkStateColor
 
 .page
-    width: 85vw
-    max-width: 800px
+    width: 100vw
+    max-width: 100vw
     margin-left: auto
     margin-right: auto
     
@@ -166,88 +159,8 @@ footer
         @media screen and (max-width: $phoneWidth)
             font-size: $phoneContactFontSize
             
-         
-#sosalovoCenter
-    text-align: center
-   
-.sosalovoPair
-    display: flex
-    flex-direction: row
-    flex-wrap: wrap
-    justify-content: center
-
-    // display: block
-    // margin: auto
-    width: 100%
-    margin-top: 52px
-    // background-color: blue
-    .field
-        
-        // background-color: red
-        width: 233px
-
-        @media screen and (max-width: $phoneWidth)
-            width: 144px
-
-        
-        .diskraSosalovoTitle
-            @extend h2
-            text-align: center
-            margin-bottom: 8px
-            
-        input
-            @extend h3
-            display: block
-            margin: auto
-            width: 89px
-            text-align: center
-    .internetField
-        @extend .field
-        input
-            align-self: center
-            display: block
-            margin: auto
-            width: 14px
-            transform: scale(2)
-            -ms-transform: scale(2) /* IE */
-            -moz-transform: scale(2) /* FF */
-            -webkit-transform: scale(2) /* Safari and Chrome */
-            -o-transform: scale(2) /* Opera */
-            
-.diskraSosalovoResult
-    margin-top: 89px
-    #diskraSosalovoNumber
-        @extend h1
-        text-align: center
-        height: 47px
-        
-    #diskraSosalovoText
-        @extend h3
-        text-align: center
-        margin-top: 13px
-        height: 23px
-        
-        
-        
-#kollokText
-    margin-top: 48px
-    text-align: center
-    
-#fightMeKollok
-    @extend h2
-    display: block
-    margin: auto
-    margin-top: 32px
-    margin-bottom: 32px
-
-#dotrixBackground
-    z-index: -1
-    display: block
-    position: absolute
-    height: auto
-    width: 100vw
-    top: 0px
-    left: 0px
-.appStoreLink
-    text-align: center
-    margin-top: 47px
+.photo
+    max-width: 95vw
+    max-height: 95vh
+    margin-bottom: 8vh
+    box-shadow: 0 0 21px rgba(70, 70, 70, 0.3)
