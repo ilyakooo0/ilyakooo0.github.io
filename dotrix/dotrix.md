@@ -33,6 +33,6 @@ Export formats:
  - jpeg
  - svg 
 
-<!-- <div class="appStoreLink">
-<a href="https://itunes.apple.com/us/app/youtube-watch-listen-stream/id544007664?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a>
-</div> -->
+<div class="appStoreLink">
+<a href="https://itunes.apple.com/us/app/dotrix-editor/id1383522711?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a>
+</div>
