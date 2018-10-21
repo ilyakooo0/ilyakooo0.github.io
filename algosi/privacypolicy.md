@@ -1,3 +1,11 @@
+---
+layout: page
+title: Algosi
+permalink: algosi/privacypolicy
+---
+
+# Algosi
+
 ## Privacy Policy
 
 Ilya Kostyuchenko built the Algosi app as a Free app. This SERVICE is provided by Ilya Kostyuchenko at no cost and is intended for use as is.
