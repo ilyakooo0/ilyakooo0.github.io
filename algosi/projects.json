@@ -1,1 +1,4 @@
-["part1-06-enchlist-stud", "part1-05-brokendna-stud", "part1-cw-02", "part1-04-nicequeue-stud", "part1-03-stackmachine-stud", "part1-cw-01", "part1-02-safearray-stud", "part1-01-point"]
+{
+	"projects": ["part1-06-enchlist-stud", "part1-05-brokendna-stud", "part1-cw-02", "part1-04-nicequeue-stud", "part1-03-stackmachine-stud", "part1-cw-01", "part1-02-safearray-stud", "part1-01-point"],
+	"message": null
+}
