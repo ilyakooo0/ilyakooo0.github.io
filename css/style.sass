@@ -140,7 +140,6 @@ p
             width: $logoDim
             height: $logoDim
             fill: $textColor
-            
         &:hover
             svg
                 fill: $linkStateColor
@@ -165,7 +164,25 @@ footer
         font-size: $contactFontSize
         @media screen and (max-width: $phoneWidth)
             font-size: $phoneContactFontSize
-            
+    #webring
+        display: block
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 34px    
+        width: 47px
+        height: 47px
+        svg
+            display: block
+            margin-left: auto
+            margin-right: auto
+            width: 47px
+            height: 47px
+            g
+                fill: $textColor                
+        &:hover
+            svg
+                g
+                    fill: $linkStateColor
          
 #sosalovoCenter
     text-align: center
@@ -251,3 +268,4 @@ footer
 .appStoreLink
     text-align: center
     margin-top: 47px
+
