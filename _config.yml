@@ -31,7 +31,8 @@ sass:
 # "Diskra"
 # "Other"
 # "Awesome stuff"
-hsePageTags: ["Kursach", "Linal", "Diskra", "Proga", "BZhD", "Matlab"]
+# "Diskra"
+hsePageTags: ["Kursach", "Linal", "Proga", "BZhD", "Matlab"]
 
 mainPageTags: ["My stuff", "Other"]
 
