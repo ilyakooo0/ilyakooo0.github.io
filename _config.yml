@@ -32,7 +32,7 @@ sass:
 # "Other"
 # "Awesome stuff"
 # "Diskra"
-hsePageTags: ["Kursach", "Linal", "Proga", "BZhD", "Matlab"]
+hsePageTags: ["Kursach",  "Linal", "Diskra", "Proga", "BZhD", "Matlab"]
 
 mainPageTags: ["My stuff", "Other"]
 
