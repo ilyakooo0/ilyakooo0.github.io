@@ -1,1 +1,26 @@
-<svg height="446" viewBox="0 0 439 446" width="439" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" x1="71.874%" x2="53.649%" y1="1.585%" y2="84.29%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ebebeb" stop-opacity="0"/></linearGradient><radialGradient id="b" cx="51.988%" cy="50%" r="75.909%"><stop offset="0" stop-color="#fff" stop-opacity=".202"/><stop offset="1" stop-color="#ebebeb" stop-opacity="0"/></radialGradient><g fill="none" fill-rule="evenodd" transform="translate(-42 -29)"><path d="m41 29h441v441h-441z" fill="url(#a)"/><circle cx="64" cy="64" fill="#404040" r="64"/><circle cx="470.5" cy="193.5" fill="#151515" r="35.5"/><path d="m41 29h441v441h-441z" fill="url(#b)"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="dotrixBackground" width="439px" height="446px" viewBox="0 0 439 446" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="71.8742322%" y1="1.58540275%" x2="53.6494864%" y2="84.2901631%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EBEBEB" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="51.9884379%" cy="50%" fx="51.9884379%" fy="50%" r="75.9088573%" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.201822917" offset="0%"></stop>
+            <stop stop-color="#EBEBEB" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-4" transform="translate(-130.000000, -75.000000)">
+            <g id="Group" transform="translate(88.000000, 46.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="41" y="29" width="441" height="441"></rect>
+                <circle id="Oval" fill="#404040" cx="64" cy="64" r="64"></circle>
+                <circle id="Oval" fill="#151515" cx="470.5" cy="193.5" r="35.5"></circle>
+                <rect id="Rectangle" fill="url(#radialGradient-2)" x="41" y="29" width="441" height="441"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
