@@ -26,7 +26,7 @@ $linkHoverColor: $textColor
 $logoDim: 150px
 $webringDim: 34px
 
-@font-face 
+@font-face
     font-family: 'PT Mono'
     src: url(/PTMono-Bold.woff)
     font-weight: bold
@@ -48,17 +48,17 @@ body
         display: block
         margin: auto
         max-width: 100%
-        
+
 code
     font-family: 'PT Mono', monospace
     font-weight: normal
 a
     color: $linkColor
     text-decoration: none
-    
-    &:hover 
+
+    &:hover
         color: $linkHoverColor
-   
+
 h1, h2, h3, h4
     font-family: 'PT Mono', monospace
     font-weight: bold
@@ -78,15 +78,15 @@ h4
     font-size: $bodyFontSize
     @media screen and (max-width: $phoneWidth)
         font-size: $phoneBodyFontSize
-   
-   
+
+
 .tags, h1
     font-family: 'PT Mono', monospace
     font-weight: bold
     font-size: $h1FontSize
     @media screen and (max-width: $phoneWidth)
         font-size: $phoneH1FontSize
-    
+
 h1
     margin: 0
     margin-top: 8px
@@ -95,7 +95,7 @@ h1
 p
     margin: 0
     margin-top: 13px
-     
+
 .page-content
     width: 100%
     align: center
@@ -105,28 +105,28 @@ p
     width: 90%
     text-align: center
     margin: auto
-    
+
 .tags, .pages
     list-style: none
     padding: 0
-    
-    
+
+
 .tagGroup
     margin-top: 62px
-    
+
 .pages
     margin-top: 13px
     line-height: 100%
-    
+
     li
         padding: 0
         margin-top: 5px
-    
+
 .pageTitle
     @extend h2
 
 #logo
-    z-index: 10 
+    z-index: 10
     margin-top: 34px
     a
         display: block
@@ -134,23 +134,18 @@ p
         margin-right: auto
         width: $logoDim
         height: $logoDim
-        svg
-            display: block
-            margin-left: auto
-            margin-right: auto
-            width: $logoDim
-            height: $logoDim
-            fill: $textColor
+        -webkit-mask-image: url(/logo-mask.svg)
+        mask-image: url(/logo-mask.svg)
+        background: $textColor
         &:hover
-            svg
-                fill: $linkStateColor
+            background: $linkStateColor
 
 .page
     width: 85%
     max-width: 800px
     margin-left: auto
     margin-right: auto
-    
+
 footer
     margin-top: 131px
     width: 100%
@@ -169,7 +164,7 @@ footer
         display: block
         margin-left: auto
         margin-right: auto
-        margin-bottom: 34px    
+        margin-bottom: 34px
         width: $webringDim
         height: $webringDim
         svg
@@ -179,15 +174,15 @@ footer
             width: $webringDim
             height: $webringDim
             g
-                fill: $textColor                
+                fill: $textColor
         &:hover
             svg
                 g
                     fill: $linkStateColor
-         
+
 #sosalovoCenter
     text-align: center
-   
+
 .sosalovoPair
     display: flex
     flex-direction: row
@@ -200,19 +195,19 @@ footer
     margin-top: 52px
     // background-color: blue
     .field
-        
+
         // background-color: red
         width: 233px
 
         @media screen and (max-width: $phoneWidth)
             width: 144px
 
-        
+
         .diskraSosalovoTitle
             @extend h2
             text-align: center
             margin-bottom: 8px
-            
+
         input
             @extend h3
             display: block
@@ -231,26 +226,26 @@ footer
             -moz-transform: scale(2) /* FF */
             -webkit-transform: scale(2) /* Safari and Chrome */
             -o-transform: scale(2) /* Opera */
-            
+
 .diskraSosalovoResult
     margin-top: 89px
     #diskraSosalovoNumber
         @extend h1
         text-align: center
         height: 47px
-        
+
     #diskraSosalovoText
         @extend h3
         text-align: center
         margin-top: 13px
         height: 23px
-        
-        
-        
+
+
+
 #kollokText
     margin-top: 48px
     text-align: center
-    
+
 #fightMeKollok
     @extend h2
     display: block
@@ -269,4 +264,3 @@ footer
 .appStoreLink
     text-align: center
     margin-top: 47px
-

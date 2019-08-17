@@ -25,7 +25,7 @@ $linkColor: $linkStateColor
 $linkHoverColor: $textColor
 $logoDim: 150px
 
-@font-face 
+@font-face
     font-family: 'PT Mono'
     src: url(/PTMono-Bold.woff)
     font-weight: bold
@@ -43,14 +43,14 @@ body
     font-size: $bodyFontSize
     @media screen and (max-width: $phoneWidth)
         font-size: $phoneBodyFontSize
-        
+
 a
     color: $linkColor
     text-decoration: none
-    
-    &:hover 
+
+    &:hover
         color: $linkHoverColor
-   
+
 h1, h2, h3, h4
     font-family: 'PT Mono', monospace
     font-weight: bold
@@ -70,15 +70,15 @@ h4
     font-size: $bodyFontSize
     @media screen and (max-width: $phoneWidth)
         font-size: $phoneBodyFontSize
-   
-   
+
+
 .tags, h1
     font-family: 'PT Mono', monospace
     font-weight: bold
     font-size: $h1FontSize
     @media screen and (max-width: $phoneWidth)
         font-size: $phoneH1FontSize
-    
+
 h1
     margin: 0
     margin-top: 8px
@@ -87,7 +87,7 @@ h1
 p
     margin: 0
     margin-top: 13px
-     
+
 .page-content
     width: 100%
     align: center
@@ -97,28 +97,28 @@ p
     width: 90%
     text-align: center
     margin: auto
-    
+
 .tags, .pages
     list-style: none
     padding: 0
-    
-    
+
+
 .tagGroup
     margin-top: 62px
-    
+
 .pages
     margin-top: 13px
     line-height: 100%
-    
+
     li
         padding: 0
         margin-top: 5px
-    
+
 .pageTitle
     @extend h2
 
 #logo
-    z-index: 10 
+    z-index: 10
     margin-top: 34px
     a
         display: block
@@ -126,24 +126,18 @@ p
         margin-right: auto
         width: $logoDim
         height: $logoDim
-        svg
-            display: block
-            margin-left: auto
-            margin-right: auto
-            width: $logoDim
-            height: $logoDim
-            fill: $textColor
-            
+        -webkit-mask-image: url(/logo-mask.svg)
+        mask-image: url(/logo-mask.svg)
+        background: $textColor
         &:hover
-            svg
-                fill: $linkStateColor
+            background: $linkStateColor
 
 .page
     width: 100%
     max-width: 100%
     margin-left: auto
     margin-right: auto
-    
+
 footer
     margin-top: 131px
     width: 100%
@@ -161,12 +155,12 @@ footer
     #webring
         svg
             g
-                fill: $textColor                
+                fill: $textColor
         &:hover
             svg
                 g
                     fill: $linkStateColor
-            
+
 .photo
     max-width: 95%
     max-height: 95vh
