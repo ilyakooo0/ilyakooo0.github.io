@@ -37,3 +37,6 @@ hsePageTags: ["Kursach",  "Linal", "Diskra", "Proga", "BZhD", "Matlab"]
 mainPageTags: ["My stuff", "Other"]
 
 keep_files: ["assets"]
+
+include: 
+  - ".well-known"
